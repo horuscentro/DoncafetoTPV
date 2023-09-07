@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "539651224600",
+    "project_id": "don-cafeto-tpv",
+    "storage_bucket": "don-cafeto-tpv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539651224600:android:5bddccc8c84319c02c7f6d",
+        "android_client_info": {
+          "package_name": "com.doncafeto.doncafetotpv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539651224600-jgilhkt43qs8aeh85i67ta3v21v4kjg4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDShS0Eizz8FIwrY2nDITEy3AT4x7UR0XY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539651224600-jgilhkt43qs8aeh85i67ta3v21v4kjg4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Otros estilos existentes -->
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/dialog_border</item>
+    </style>
+</resources>

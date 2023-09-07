@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_ventas">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.doncafeto.doncafetotpv.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_ventas"
+            app:destination="@id/nav_ventas" />
+        <action
+            android:id="@+id/action_nav_home_to_navProductosFragment"
+            app:destination="@id/navProductosFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_clientesFragment"
+            app:destination="@id/nav_clientes" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_ventas"
+        android:name="com.doncafeto.doncafetotpv.ui.ventas.VentasFragment"
+        android:label="@string/menu_ventas"
+        tools:layout="@layout/fragment_ventas" >
+        <action
+            android:id="@+id/action_nav_ventas_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navProductosFragment"
+        android:name="com.doncafeto.doncafetotpv.ui.productos.ProductosFragment"
+        android:label="fragment_productos"
+        tools:layout="@layout/fragment_productos" >
+        <action
+            android:id="@+id/action_navProductosFragment_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_clientes"
+        android:name="com.doncafeto.doncafetotpv.ui.Clientes.ClientesFragment"
+        android:label="fragment_clientes"
+        tools:layout="@layout/fragment_clientes" />
+    <fragment
+        android:id="@+id/nav_Pruebas"
+        android:name="com.doncafeto.doncafetotpv.nav_Pruebas"
+        android:label="fragment_nav__pruebas"
+        tools:layout="@layout/fragment_nav__pruebas" />
+</navigation>

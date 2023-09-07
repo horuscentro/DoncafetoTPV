@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_clave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Clave" />
+
+    <EditText
+        android:id="@+id/edit_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre" />
+
+    <EditText
+        android:id="@+id/edit_descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripcion" />
+
+    <EditText
+        android:id="@+id/edit_precio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Precio"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/edit_costo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Costo"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/edit_stock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Stock"
+        android:inputType="number"/>
+</LinearLayout>

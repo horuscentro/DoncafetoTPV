@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!-- Campo para seleccionar cantidad -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/edtCantidadProducto"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="Cantidad:" />
+
+            <TextView
+                android:id="@+id/tvProductQuantity"
+                android:layout_width="100dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="1"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_marginLeft="5dp">
+                <Button
+                    android:id="@+id/btnDecrease"
+                    android:layout_width="70dp"
+                    android:layout_weight="1"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="-"/>
+                <Button
+                    android:id="@+id/btnIncrease"
+                    android:layout_weight="1"
+                    android:layout_width="70dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:text="+"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <!-- Campo para introducir descuento -->
+        <EditText
+            android:id="@+id/edtProductDiscount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="8dp"
+            android:hint="Descuento (%)"
+            android:inputType="numberDecimal"/>
+
+        <!-- Botón para agregar producto -->
+
+    </LinearLayout>
+    <!-- Campo para buscar producto -->
+    <EditText
+        android:id="@+id/edtSearchProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Buscar producto"/>
+
+    <!-- ListView para mostrar resultados -->
+    <ListView
+        android:id="@+id/listProducts"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="8dp"/>
+
+
+
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/btnAddProductToSale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Agregar a la venta"/>
+</LinearLayout>
+

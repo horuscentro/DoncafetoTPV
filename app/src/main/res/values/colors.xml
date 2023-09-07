@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Morados -->
+    <color name="lavanda_claro">#D1B2E1</color> <!-- Lavanda claro -->
+    <color name="purple_500">#8F57A1</color> <!-- Morado medio -->
+    <color name="purple_700">#5D3368</color> <!-- Morado oscuro -->
+
+    <!-- Verdes/Teal -->
+    <color name="teal_200">#8AE8DB</color> <!-- Teal claro -->
+    <color name="teal_700">#267D7D</color> <!-- Teal oscuro -->
+
+    <!-- Básicos -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
